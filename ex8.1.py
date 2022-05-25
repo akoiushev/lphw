@@ -1,0 +1,12 @@
+formatter = "{} {} {} {}"
+
+print(formatter.format(1, 2, 3, 4, 5))
+print(formatter.format("раз", "два","три"))
+print(formatter.format(True, False, False, True))
+print(formatter.format(formatter, formatter, formatter, formatter))
+print(formatter.format(
+          "Спят в конюшне пони,",
+          "начал лес дремать,",
+          "только мальчик Джонни",
+          "не ложится спать!"
+))
